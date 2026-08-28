@@ -1,4 +1,14 @@
+// Initialize on DOM Load
 document.addEventListener('DOMContentLoaded', () => {
+
+  // إضافة الاستماع لزر العودة بالمتصفح/الهاتف
+  window.addEventListener("popstate", () => {
+    const activeModal = document.querySelector(".modal.open, .project-modal.open, #projectModal.open");
+    if (activeModal) {
+      activeModal.classList.remove("open");
+      document.body.style.overflow = "";
+    }
+  });
 
   // 1. Reveal Animations on Scroll
   const revealItems = document.querySelectorAll(".reveal");
@@ -671,28 +681,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Open Modal
         projectView.classList.add("open");
+        history.pushState({ modalOpen: true }, "");
         projectView.setAttribute("aria-hidden", "false");
         document.body.style.overflow = "hidden";
       }
     });
   });
 
-  function closeProjectView() {
-    if (projectView) {
+  function closeProjectView(fromHistory = false) {
+    if (projectView && projectView.classList.contains("open")) {
       projectView.classList.remove("open");
       projectView.setAttribute("aria-hidden", "true");
       document.body.style.overflow = "";
+
+      // تنظيف سجل المتصفح إذا تم الإغلاق بزر Close بدلاً من زر العودة
+      if (!fromHistory && history.state && history.state.modalOpen) {
+        history.back();
+      }
     }
   }
 
+  // الاستماع لزر العودة بالهاتف أو المتصفح
+  window.addEventListener("popstate", () => {
+    if (projectView && projectView.classList.contains("open")) {
+      closeProjectView(true);
+    }
+  });
+
   if (closeProject) {
-    closeProject.addEventListener("click", closeProjectView);
+    closeProject.addEventListener("click", () => closeProjectView(false));
   }
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && projectView && projectView.classList.contains("open")) {
-      closeProjectView();
+      closeProjectView(false);
     }
   });
-
-});

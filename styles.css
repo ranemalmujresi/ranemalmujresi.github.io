@@ -51,6 +51,7 @@ button {
   margin-inline: auto;
 }
 
+
 /* 3. NAVIGATION */
 .site-nav {
   position: fixed;
@@ -110,10 +111,11 @@ button {
   background: var(--ivory);
   border-bottom: 1px solid var(--line);
   padding: 12px 24px 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
 .mobile-menu.open {
-  display: block;
+  display: block !important;
 }
 
 .mobile-menu a {
@@ -121,6 +123,11 @@ button {
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
   font-size: 14px;
+  color: var(--ink);
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
 }
 
 /* 4. SECTIONS & TYPOGRAPHY */
