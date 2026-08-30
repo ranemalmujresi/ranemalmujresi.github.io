@@ -261,11 +261,6 @@
                       <p>The challenge was not simply to promote the exhibition, but to build demand among different audiences at the right stage of the decision-making process.</p>`
           },
           {
-            type: "image",
-            src: "mena-project-26-approach.jpg",
-            alt: "MENA Project 26 Strategy & Approach"
-          },
-          {
             title: "Approach",
             content: `<p>The strategy was structured around two main phases:</p>
                       <div class="case-sub-block">
@@ -277,6 +272,11 @@
                         <p>Gradually shifted communication toward visitor acquisition, building awareness and interest around the upcoming exhibition while keeping partnership opportunities open.</p>
                       </div>
                       <p>This approach allowed the campaign to move from securing the supply side of the exhibition to building demand from its audience, rather than communicating to all audiences with the same message throughout the campaign.</p>`
+          },
+          {
+            type: "image",
+            src: "mena-project-26-approach.jpg",
+            alt: "MENA Project 26 Strategy & Approach"
           },
           {
             title: "Execution",
@@ -292,11 +292,6 @@
                         <li>Ongoing coordination between strategy, content, outreach, and campaign execution.</li>
                       </ul>
                       <p>Rather than treating the exhibition as a single promotional campaign, the execution was structured around the different audiences and their decision-making timelines.</p>`
-          },
-          {
-            type: "image",
-            src: "mena-project-26-execution.jpg",
-            alt: "MENA Project 26 Execution & B2B Channels"
           },
           {
             title: "Results",
@@ -402,8 +397,8 @@
           }
         ]
       },
-      "5": { // Project: Al-Amanah
-        title: "Al-Amanah",
+      "5": { // Project: Alamanah
+        title: "Alamana",
         meta: {
           type: "B2B Content Marketing · Brand Awareness · Brand Positioning",
           duration: "March 2026 – July 2026",
@@ -415,20 +410,20 @@
         sections: [
           {
             title: "Overview",
-            content: `<p>Al-Amanah is a Libyan company specializing in heavy machinery, equipment, and trucks, and serves as the exclusive Libyan agent for LiuGong and FAW Trucks.</p>
-                      <p>The project covered three social media accounts: Al-Amanah Heavy Machinery & Equipment, FAW Libya, and LiuGong Libya.</p>
+            content: `<p>Alamana is a Libyan company specializing in heavy machinery, equipment, and trucks, and serves as the exclusive Libyan agent for LiuGong and FAW Trucks.</p>
+                      <p>The project covered three social media accounts: Alamana Heavy Machinery & Equipment, FAW Libya, and LiuGong Libya.</p>
                       <p>I joined the project as a Content Marketing Strategist, responsible for developing the content direction, defining content priorities, planning publishing activity, developing B2B messaging, and coordinating and reviewing the execution of the content across the three accounts.</p>
-                      <p>The strategy focused on building Al-Amanah's digital presence as the official and trusted local representative of LiuGong and FAW in Libya, while developing a communication system capable of marketing products that are significantly more complex than conventional consumer products.</p>
+                      <p>The strategy focused on building Alamana's digital presence as the official and trusted local representative of LiuGong and FAW in Libya, while developing a communication system capable of marketing products that are significantly more complex than conventional consumer products.</p>
                       <p>Rather than treating social media as a simple product catalogue, the strategy aimed to make the brands more recognizable, understandable, and credible to the businesses and decision-makers that could eventually become customers.</p>`
           },
           {
             title: "Challenge",
-            content: `<p>Al-Amanah had strong commercial assets through its exclusive representation of established international brands, but this positioning was not sufficiently reflected in its digital communication.</p>
+            content: `<p>Alamana had strong commercial assets through its exclusive representation of established international brands, but this positioning was not sufficiently reflected in its digital communication.</p>
                       <p>The challenge had two connected dimensions. First, the audience needed to understand who Al-Amanah was and what its relationship with LiuGong and FAW represented in the Libyan market. Second, heavy machinery and commercial trucks are inherently difficult products to market through social media. Unlike consumer products, they are purchased based on operational requirements, project suitability, productivity, durability, cost considerations, availability, and after-sales support.</p>
                       <p>The communication therefore needed to move beyond simply showing equipment and listing specifications.</p>
                       <p><strong>The strategy needed to:</strong></p>
                       <ul>
-                        <li>Establish awareness of Al-Amanah as the official local representative.</li>
+                        <li>Establish awareness of Alamana as the official local representative.</li>
                         <li>Build recognition around LiuGong and FAW within the Libyan market.</li>
                         <li>Make complex equipment easier for business audiences to understand.</li>
                         <li>Connect product features to real operational and project requirements.</li>
@@ -440,7 +435,7 @@
           {
             type: "image",
             src: "al-amanah-approach.jpg",
-            alt: "Al-Amanah B2B Positioning & Approach"
+            alt: "Alamana B2B Positioning & Approach"
           },
           {
             title: "Approach",
@@ -462,7 +457,7 @@
             title: "Content Strategy & Accounts Breakdown",
             content: `<p>The content system was adapted across the three accounts while maintaining a shared strategic direction:</p>
                       <div class="case-sub-block">
-                        <h4>Al-Amanah — Corporate & Equipment Communication</h4>
+                        <h4>Alamana — Corporate & Equipment Communication</h4>
                         <p>Positioned around the company itself, its equipment portfolio, and its role as a local partner for businesses requiring heavy machinery. The content focused on sales communication through the formula: <em>Product capability → Operational benefit → Business value</em>.</p>
                       </div>
                       <div class="case-sub-block">
@@ -481,7 +476,7 @@
           {
             type: "image",
             src: "al-amanah-accounts.jpg",
-            alt: "Al-Amanah Three Accounts System & Libya Build"
+            alt: "Alamana Three Accounts System & Libya Build"
           },
           {
             title: "Execution",
@@ -506,7 +501,7 @@
             content: `<p><em>The project did not have a single numerical conversion KPI because its primary objective during this stage was digital brand establishment and awareness, rather than direct lead generation through paid campaigns.</em></p>
                       <p><strong>Key qualitative achievements include:</strong></p>
                       <ul>
-                        <li>Established a structured digital presence for Al-Amanah as the official local representative of LiuGong and FAW.</li>
+                        <li>Established a structured digital presence for Alamana as the official local representative of LiuGong and FAW.</li>
                         <li>Gained clearer and more consistent brand positioning across the Libyan market for both represented international brands.</li>
                         <li>Created a repeatable B2B content system balancing three core needs: <strong>Selling complex equipment → Educating the audience → Building trust</strong>.</li>
                         <li>Strengthened real-world credibility through comprehensive digital coverage of the Libya Build exhibition.</li>
