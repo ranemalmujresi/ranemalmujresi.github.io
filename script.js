@@ -86,7 +86,7 @@
                       <p><strong>The content strategy was structured around five interconnected pillars:</strong></p>
                       <div class="case-sub-block">
                         <h4>Educational Content</h4>
-                        <p>Building awareness and authority through accessible marketing and media knowledge, including the recurring "لازم تعرف" series and the short-form Sharks Bites format.</p>
+                        <p>Building awareness and authority through accessible marketing and media knowledge, including " لازم تعرف " (You Need To Know ) series.</p>
                       </div>
                       <div class="case-sub-block">
                         <h4>News & Case Studies</h4>
@@ -109,7 +109,7 @@
           {
             title: "Execution",
             content: `<p>The strategy was translated into an ongoing content system designed to make the different content formats support one another.</p>
-                      <p>The educational content established Sharks as a source of useful marketing knowledge through formats such as "لازم تعرف", covering practical marketing concepts, audience behavior, and the thinking behind successful campaigns.</p>
+                      <p>The educational content established Sharks as a source of useful marketing knowledge through formats such as " لازم تعرف " (You Need To Know ), covering practical marketing concepts, audience behavior, and the thinking behind successful campaigns.</p>
                       <p>The News & Case Studies stream added an analytical layer by connecting current marketing developments and global campaigns to practical lessons and strategic observations.</p>
                       <p>At the same time, Brand & Behind the Scenes content showed Sharks from the inside through meetings, project preparation, and field execution, while Proof of Expertise content turned the company's existing body of work into visible evidence of its capabilities.</p>
                       <p>Service communication was intentionally limited during the early stage rather than relying on continuous promotional posts. It is gradually introduced as the strategy progresses, with the goal of connecting services to demonstrated expertise and real business value.</p>
@@ -142,7 +142,7 @@
                         <li><strong>891</strong> Facebook Visits</li>
                       </ul>
                       <p>The first month established significant early awareness for the brand while deliberately keeping follower growth from becoming the primary KPI.</p>
-                      <p>More importantly, the results show movement across both awareness and intent — from broad content exposure and repeated viewing to content interactions, page visits, and link clicks.</p>
+                      <p>More importantly, the results show movement across both awareness and intent, from broad content exposure and repeated viewing to content interactions, page visits, and link clicks.</p>
                       <p>As the strategy progresses, the focus will gradually move toward stronger proof of expertise, clearer service communication, and converting the awareness and trust built in the early stages into qualified business opportunities.</p>`
           }
         ]
@@ -356,7 +356,7 @@
                         <h4>Phase 3 — Market Presence & Summer Offers (July 2025)</h4>
                         <p>Move beyond the launch itself and establish Sky Seekers as an active travel brand through a consistent mix of services, educational content, interactive communication, and seasonal offers.</p>
                       </div>
-                      <p>The central creative direction during the pre-launch phase was to connect travel with relationships and emotional distance, using messages such as <em>"نقربك من أحبابك البعاد"</em> and <em>"نقلص المسافات بينك وبين أحبابك"</em> to create an emotional reason to care about the upcoming brand before revealing it.</p>`
+                      <p>The central creative direction during the pre-launch phase was to connect travel with relationships and emotional distance, using messages such as “نقربك من أحبابك البعاد” (Bringing You Closer to Your Loved Ones Far Away) and “رؤية العالم أصبحت أسهل” (Seeing the World Has Become Easier) to create an emotional reason to care about the upcoming brand before revealing it.</p>`
           },
           {
             title: "Execution",

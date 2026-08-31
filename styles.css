@@ -737,7 +737,7 @@ footer {
 
 .case-inline-image {
   width: 100%;
-  aspect-ratio: 16 / 8;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border: 1px solid var(--line);
   margin: 40px 0;
@@ -786,4 +786,59 @@ footer {
   margin: 0 0 6px;
   color: var(--ink);
   font-size: 16px;
+}
+
+/* تحسين عرض تفاصيل المشروع على الشاشات الصغيرة والهواتف */
+@media (max-width: 768px) {
+  .case-meta-grid {
+    grid-template-columns: 1fr; /* جعل العناصر تظهر فوق بعضها بخط واحد */
+    gap: 20px;
+  }
+  
+  .case-banner {
+    aspect-ratio: 16 / 9; /* تحسين نسبة ارتفاع غلاف المشروع على الهاتف */
+  }
+
+  .case-inline-image {
+    aspect-ratio: 4 / 3; /* جعل الصور الداخلية أكثر ارتفاعاً ووضوحاً على الشاشات الصغيرة */
+  }
+}
+
+/* ==========================================
+   توحيد حجم الكروت وتثبيت مكان الخط الفاصل
+   ========================================== */
+
+/* 1. توحيد ارتفاع شبكة الكروت */
+.featured-grid,
+.additional-grid {
+  align-items: stretch !important;
+}
+
+/* 2. تحويل الكارد ومحتواه إلى نظام Flex رأسي */
+.project-card,
+.additional-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.project-content {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important; /* ملء المساحة المتبقية داخل الكارد */
+}
+
+/* 3. جعل فقرة النص تتمدد لتغطية الفراغ */
+.project-content p,
+.additional-card p {
+  flex-grow: 1 !important;
+  margin-bottom: 20px !important;
+}
+
+/* 4. دفع عنصر الـ role والخط الفاصل إلى الأسفل مباشرة */
+.project-content .role,
+.additional-card .role {
+  margin-top: auto !important;
+  padding-top: 16px !important;
+  border-top: 1px solid var(--line) !important; /* تثبيت الخط الفاصل فوق الـ Role */
 }
