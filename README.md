@@ -11,4 +11,4 @@ You can view the live website here : https://ranemalmujresi.github.io
 * JavaScript (Vanilla)
 
 ## 📄 License
-© 2026  Almujreesi. All rights reserved.
+© 2026 Raneem Almujreesi. All rights reserved.
