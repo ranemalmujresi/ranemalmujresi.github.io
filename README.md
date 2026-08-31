@@ -1,6 +1,6 @@
-# Personal Portfolio -  Almujreesi
+# Personal Portfolio -  Raneem Almujreesi
 
-Welcome to my personal portfolio website codebase. This repository contains the source code for my portfolio, showcasing my work as a Content Marketing Strategist and Social Media Manager.
+Welcome to my personal portfolio website codebase. This repository contains the source code for my portfolio, showcasing my work as a Digital Marketing and Content Strategist.
 
 ## 🌐 Live Demo
 You can view the live website here : https://ranemalmujresi.github.io
@@ -11,4 +11,4 @@ You can view the live website here : https://ranemalmujresi.github.io
 * JavaScript (Vanilla)
 
 ## 📄 License
-© 2026  Almujreesi. All rights reserved.
+© 2026 Raneem Almujreesi. All rights reserved.
