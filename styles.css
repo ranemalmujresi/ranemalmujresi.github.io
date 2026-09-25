@@ -791,19 +791,25 @@ footer {
 /* تحسين عرض تفاصيل المشروع على الشاشات الصغيرة والهواتف */
 @media (max-width: 768px) {
   .case-meta-grid {
-    grid-template-columns: 1fr; /* جعل العناصر تظهر فوق بعضها بخط واحد */
+    grid-template-columns: 1fr;
     gap: 20px;
   }
   
   .case-banner {
-    aspect-ratio: 16 / 9; /* تحسين نسبة ارتفاع غلاف المشروع على الهاتف */
+    aspect-ratio: 16 / 9;
   }
 
   .case-inline-image {
-    aspect-ratio: 4 / 3; /* جعل الصور الداخلية أكثر ارتفاعاً ووضوحاً على الشاشات الصغيرة */
+    aspect-ratio: auto !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 24px 0 !important;
+  }
+
+  .project-view-inner {
+    width: min(calc(100% - 24px), 1100px) !important;
   }
 }
-
 /* ==========================================
    توحيد حجم الكروت وتثبيت مكان الخط الفاصل
    ========================================== */
