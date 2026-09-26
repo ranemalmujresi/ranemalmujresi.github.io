@@ -1,4 +1,4 @@
-/* 1. VARIABLES */
+/* VARIABLES */
 :root {
   --ivory: #f5f1e8;
   --ivory-2: #f8f5ee;
@@ -10,7 +10,7 @@
   --sans: Arial, Helvetica, sans-serif;
 }
 
-/* 2. RESET */
+/* RESET */
 * {
   box-sizing: border-box;
 }
@@ -130,7 +130,7 @@ button {
   border-bottom: none;
 }
 
-/* 4. SECTIONS & TYPOGRAPHY */
+/* SECTIONS & TYPOGRAPHY */
 section {
   scroll-margin-top: 76px;
 }
@@ -154,7 +154,7 @@ section {
   text-transform: uppercase;
 }
 
-/* 5. HERO */
+/* HERO */
 .hero {
   min-height: 85vh;
   display: grid;
@@ -226,7 +226,7 @@ section {
   color: var(--ivory);
 }
 
-/* 6. ABOUT */
+/* ABOUT */
 .about-intro {
   max-width: 900px;
   margin-bottom: 60px;
@@ -348,7 +348,7 @@ section {
   color: var(--muted);
 }
 
-/* 7. WORK & CASE STUDIES */
+/* WORK & CASE STUDIES */
 .work-intro {
   max-width: 750px;
   color: var(--muted);
@@ -437,7 +437,7 @@ section {
   padding-top: 60px;
 }
 
-/* 8. ADDITIONAL PROJECTS */
+/* ADDITIONAL PROJECTS */
 .additional-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -487,7 +487,7 @@ section {
   margin-top: 2px;
 }
 
-/* 9. EXPERTISE */
+/* EXPERTISE */
 .expertise-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -513,7 +513,7 @@ section {
   font-size: 15px;
 }
 
-/* 10. CONTACT */
+/* CONTACT */
 .contact-layout {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -562,7 +562,7 @@ section {
   text-decoration: underline;
 }
 
-/* 11. FOOTER */
+/* FOOTER */
 footer {
   border-top: 1px solid var(--line);
   padding: 30px 0;
@@ -570,7 +570,7 @@ footer {
   color: var(--muted);
 }
 
-/* 12. PROJECT OVERLAY VIEW */
+/* PROJECT OVERLAY VIEW */
 .project-view {
   position: fixed;
   inset: 0;
@@ -649,7 +649,7 @@ footer {
   font-size: 15px;
 }
 
-/* 13. ANIMATIONS & REVEAL */
+/* ANIMATIONS & REVEAL */
 .reveal {
   opacity: 0;
   transform: translateY(18px);
@@ -661,7 +661,7 @@ footer {
   transform: translateY(0);
 }
 
-/* 14. RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN */
 @media (max-width: 900px) {
   .nav-links {
     display: none;
@@ -788,7 +788,7 @@ footer {
   font-size: 16px;
 }
 
-/* تحسين عرض تفاصيل المشروع على الشاشات الصغيرة والهواتف */
+/* MOPILE VIEW */
 @media (max-width: 768px) {
   .case-meta-grid {
     grid-template-columns: 1fr;
@@ -810,17 +810,13 @@ footer {
     width: min(calc(100% - 24px), 1100px) !important;
   }
 }
-/* ==========================================
-   توحيد حجم الكروت وتثبيت مكان الخط الفاصل
-   ========================================== */
 
-/* 1. توحيد ارتفاع شبكة الكروت */
+/* CARDS SIZE */
 .featured-grid,
 .additional-grid {
   align-items: stretch !important;
 }
 
-/* 2. تحويل الكارد ومحتواه إلى نظام Flex رأسي */
 .project-card,
 .additional-card {
   display: flex !important;
@@ -831,17 +827,15 @@ footer {
 .project-content {
   display: flex !important;
   flex-direction: column !important;
-  flex: 1 1 auto !important; /* ملء المساحة المتبقية داخل الكارد */
+  flex: 1 1 auto !important; 
 }
 
-/* 3. جعل فقرة النص تتمدد لتغطية الفراغ */
 .project-content p,
 .additional-card p {
   flex-grow: 1 !important;
   margin-bottom: 20px !important;
 }
 
-/* 4. دفع عنصر الـ role والخط الفاصل إلى الأسفل مباشرة */
 .project-content .role,
 .additional-card .role {
   margin-top: auto !important;

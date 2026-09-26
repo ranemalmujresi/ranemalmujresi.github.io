@@ -1,7 +1,6 @@
   // Initialize on DOM Load
   document.addEventListener('DOMContentLoaded', () => {
 
-    // إضافة الاستماع لزر العودة بالمتصفح/الهاتف
     window.addEventListener("popstate", () => {
       const activeModal = document.querySelector(".modal.open, .project-modal.open, #projectModal.open");
       if (activeModal) {
@@ -10,7 +9,7 @@
       }
     });
 
-    // 1. Reveal Animations on Scroll
+    // Reveal Animations on Scroll
     const revealItems = document.querySelectorAll(".reveal");
     const revealObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
@@ -23,7 +22,7 @@
 
     revealItems.forEach(item => revealObserver.observe(item));
 
-    // 2. Mobile Menu Toggle
+    // Mobile Menu Toggle
     const menuButton = document.getElementById("menuButton");
     const mobileMenu = document.getElementById("mobileMenu");
 
@@ -41,7 +40,7 @@
       });
     }
 
-    // 3. Case Studies Data Store
+    // Case Studies Data Store
     const projectsData = {
       "1": { // Project 1: Sharks Group
         title: "Sharks Group",
@@ -305,7 +304,7 @@
           }
         ]
       },
-      "4": { // Project: Sky Seekers Libya
+      "4": { // Project 4: Sky Seekers Libya
         title: "Sky Seekers Libya",
         meta: {
           type: "Content Marketing Strategy · Social Media Management · Market Entry Campaign",
@@ -397,7 +396,7 @@
           }
         ]
       },
-      "5": { // Project: Alamanah
+      "5": { // Project 5: Alamanah
         title: "Alamana",
         meta: {
           type: "B2B Content Marketing · Brand Awareness · Brand Positioning",
@@ -614,7 +613,7 @@
       }
     };
 
-    // 4. Full-screen Project View Modal System
+    // Full-screen Project View Modal System
     const projectView = document.getElementById("projectView");
     const closeProject = document.getElementById("closeProject");
     const projectViewInner = document.querySelector(".project-view-inner");
@@ -689,14 +688,13 @@
         projectView.setAttribute("aria-hidden", "true");
         document.body.style.overflow = "";
 
-        // تنظيف سجل المتصفح إذا تم الإغلاق بزر Close بدلاً من زر العودة
+        // Close Button
         if (!fromHistory && history.state && history.state.modalOpen) {
           history.back();
         }
       }
     }
 
-    // الاستماع لزر العودة بالهاتف أو المتصفح
     window.addEventListener("popstate", () => {
       if (projectView && projectView.classList.contains("open")) {
         closeProjectView(true);
